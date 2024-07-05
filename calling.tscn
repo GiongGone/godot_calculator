@@ -1,0 +1,204 @@
+[gd_scene load_steps=6 format=3 uid="uid://cj2jtg4qnuoh"]
+
+[ext_resource type="Script" path="res://calling.gd" id="1_ex7hc"]
+[ext_resource type="Texture2D" uid="uid://bjaddqo4yh60a" path="res://one.png" id="1_jinv7"]
+[ext_resource type="Texture2D" uid="uid://46mdpi8iqn46" path="res://two.png" id="2_f4tcg"]
+[ext_resource type="Texture2D" uid="uid://4x82bshi2mn5" path="res://three.png" id="4_tx4ip"]
+[ext_resource type="Texture2D" uid="uid://gootn012os3h" path="res://four.png" id="5_8sav5"]
+
+[node name="calling" type="Node2D"]
+script = ExtResource("1_ex7hc")
+
+[node name="One" type="Sprite2D" parent="."]
+position = Vector2(200, 300)
+texture = ExtResource("1_jinv7")
+
+[node name="Two" type="Sprite2D" parent="."]
+position = Vector2(200, 50)
+texture = ExtResource("2_f4tcg")
+
+[node name="controls" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="all" type="Label" parent="controls"]
+offset_right = 400.0
+offset_bottom = 100.0
+theme_override_font_sizes/font_size = 70
+text = "00000001"
+horizontal_alignment = 2
+uppercase = true
+
+[node name="one" type="Button" parent="controls"]
+layout_mode = 0
+offset_left = 50.0
+offset_top = 500.0
+offset_right = 155.0
+offset_bottom = 605.0
+scale = Vector2(0.95, 0.95)
+action_mode = 0
+icon = ExtResource("4_tx4ip")
+flat = true
+text_overrun_behavior = 3
+
+[node name="two" type="Button" parent="controls"]
+offset_left = 150.0
+offset_top = 500.0
+offset_right = 255.0
+offset_bottom = 605.0
+scale = Vector2(0.95, 0.95)
+action_mode = 0
+icon = ExtResource("4_tx4ip")
+flat = true
+
+[node name="three" type="Button" parent="controls"]
+offset_left = 250.0
+offset_top = 500.0
+offset_right = 355.0
+offset_bottom = 605.0
+scale = Vector2(0.95, 0.95)
+action_mode = 0
+icon = ExtResource("4_tx4ip")
+flat = true
+
+[node name="four" type="Button" parent="controls"]
+offset_left = 50.0
+offset_top = 400.0
+offset_right = 155.0
+offset_bottom = 505.0
+scale = Vector2(0.95, 0.95)
+action_mode = 0
+icon = ExtResource("4_tx4ip")
+flat = true
+
+[node name="five" type="Button" parent="controls"]
+offset_left = 150.0
+offset_top = 400.0
+offset_right = 255.0
+offset_bottom = 505.0
+scale = Vector2(0.95, 0.95)
+action_mode = 0
+icon = ExtResource("4_tx4ip")
+flat = true
+
+[node name="six" type="Button" parent="controls"]
+offset_left = 250.0
+offset_top = 400.0
+offset_right = 355.0
+offset_bottom = 505.0
+scale = Vector2(0.95, 0.95)
+action_mode = 0
+icon = ExtResource("4_tx4ip")
+flat = true
+
+[node name="seven" type="Button" parent="controls"]
+offset_left = 50.0
+offset_top = 300.0
+offset_right = 155.0
+offset_bottom = 405.0
+scale = Vector2(0.95, 0.95)
+action_mode = 0
+icon = ExtResource("4_tx4ip")
+flat = true
+
+[node name="eight" type="Button" parent="controls"]
+offset_left = 150.0
+offset_top = 300.0
+offset_right = 255.0
+offset_bottom = 405.0
+scale = Vector2(0.95, 0.95)
+action_mode = 0
+icon = ExtResource("4_tx4ip")
+flat = true
+
+[node name="nine" type="Button" parent="controls"]
+offset_left = 250.0
+offset_top = 300.0
+offset_right = 355.0
+offset_bottom = 405.0
+scale = Vector2(0.95, 0.95)
+action_mode = 0
+icon = ExtResource("4_tx4ip")
+flat = true
+
+[node name="multi" type="Button" parent="controls"]
+offset_left = 50.0
+offset_top = 200.0
+offset_right = 155.0
+offset_bottom = 305.0
+scale = Vector2(0.95, 0.95)
+action_mode = 0
+icon = ExtResource("4_tx4ip")
+flat = true
+
+[node name="divide" type="Button" parent="controls"]
+offset_left = 150.0
+offset_top = 200.0
+offset_right = 255.0
+offset_bottom = 305.0
+scale = Vector2(0.95, 0.95)
+action_mode = 0
+icon = ExtResource("4_tx4ip")
+flat = true
+
+[node name="zero" type="Button" parent="controls"]
+offset_left = 250.0
+offset_top = 200.0
+offset_right = 355.0
+offset_bottom = 305.0
+scale = Vector2(0.95, 0.95)
+action_mode = 0
+icon = ExtResource("4_tx4ip")
+flat = true
+
+[node name="add" type="Button" parent="controls"]
+offset_left = 50.0
+offset_top = 100.0
+offset_right = 155.0
+offset_bottom = 205.0
+scale = Vector2(0.95, 0.95)
+action_mode = 0
+icon = ExtResource("4_tx4ip")
+flat = true
+
+[node name="subtract" type="Button" parent="controls"]
+offset_left = 150.0
+offset_top = 100.0
+offset_right = 255.0
+offset_bottom = 205.0
+scale = Vector2(0.95, 0.95)
+action_mode = 0
+icon = ExtResource("4_tx4ip")
+flat = true
+
+[node name="equal" type="Button" parent="controls"]
+offset_left = 250.0
+offset_top = 100.0
+offset_right = 355.0
+offset_bottom = 205.0
+scale = Vector2(0.95, 0.95)
+action_mode = 0
+icon = ExtResource("4_tx4ip")
+flat = true
+
+[node name="Four" type="Sprite2D" parent="."]
+position = Vector2(200, 350)
+texture = ExtResource("5_8sav5")
+
+[connection signal="pressed" from="controls/one" to="." method="_on_one_pressed"]
+[connection signal="pressed" from="controls/two" to="." method="_on_two_pressed"]
+[connection signal="pressed" from="controls/three" to="." method="_on_three_pressed"]
+[connection signal="pressed" from="controls/four" to="." method="_on_four_pressed"]
+[connection signal="pressed" from="controls/five" to="." method="_on_five_pressed"]
+[connection signal="pressed" from="controls/six" to="." method="_on_six_pressed"]
+[connection signal="pressed" from="controls/seven" to="." method="_on_seven_pressed"]
+[connection signal="pressed" from="controls/eight" to="." method="_on_eight_pressed"]
+[connection signal="pressed" from="controls/nine" to="." method="_on_nine_pressed"]
+[connection signal="pressed" from="controls/multi" to="." method="_on_multi_pressed"]
+[connection signal="pressed" from="controls/divide" to="." method="_on_divide_pressed"]
+[connection signal="pressed" from="controls/zero" to="." method="_on_zero_pressed"]
+[connection signal="pressed" from="controls/add" to="." method="_on_add_pressed"]
+[connection signal="pressed" from="controls/subtract" to="." method="_on_subtract_pressed"]
+[connection signal="pressed" from="controls/equal" to="." method="_on_equal_pressed"]
